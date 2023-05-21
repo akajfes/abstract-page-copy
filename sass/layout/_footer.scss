@@ -1,0 +1,25 @@
+@use '../abstracts' as a;
+
+footer {
+    background-color: a.$black;
+    .footer-nav {
+        color: a.$white;
+        p {
+           font-weight: 600; 
+        }
+        a {
+            text-decoration: none;
+            color: a.$white;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .contact-us {
+            font-size: 1rem;
+        }
+    }
+}

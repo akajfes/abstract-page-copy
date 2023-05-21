@@ -1,3 +1,26 @@
+footer {
+  background-color: #000000;
+}
+footer .footer-nav {
+  color: #fffff5;
+}
+footer .footer-nav p {
+  font-weight: 600;
+}
+footer .footer-nav a {
+  text-decoration: none;
+  color: #fffff5;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+footer .footer-nav .contact-us {
+  font-size: 1rem;
+}
+
 header {
   background-color: #000000;
 }

@@ -1,0 +1,6 @@
+@use '../abstracts' as a;
+
+.help-search {
+    padding: 80px 0 115px 0;
+    background-color: a.$lt-blue;
+}
