@@ -3,4 +3,11 @@
 .help-search {
     padding: 80px 0 115px 0;
     background-color: a.$lt-blue;
+    text-align: center;
+
+    h2 {
+        line-height: 40px;
+        letter-spacing: -0.25rem;
+        margin-bottom: 50px;
+    }
 }

@@ -135,7 +135,7 @@ p {
 }
 
 /* Styling the three lines
-	to make it an X */
+		to make it an X */
 .menu-btn.close .btn-line:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -162,7 +162,7 @@ p {
 }
 
 /* Adding a transition delay to the
-4 items in the navigation menu */
+	4 items in the navigation menu */
 .nav-item:nth-child(1) {
   transition-delay: 0.1s;
 }
@@ -177,6 +177,35 @@ p {
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
+}
+
+.search-box {
+  background-color: #fffff5;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.search-box input {
+  flex: 1;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+.search-box input::-moz-placeholder {
+  color: #000000;
+}
+.search-box input::placeholder {
+  color: #000000;
+}
+.search-box button {
+  padding: 15px 10px 10px 0;
+  background-color: #fffff5;
+  border-radius: 4px;
+  border: none;
+}
+.search-box button:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -215,4 +244,10 @@ header h1 a {
 .help-search {
   padding: 80px 0 115px 0;
   background-color: #dadbf1;
+  text-align: center;
+}
+.help-search h2 {
+  line-height: 40px;
+  letter-spacing: -0.25rem;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=app.css.map */
